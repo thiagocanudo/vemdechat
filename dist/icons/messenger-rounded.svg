@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="21.166666mm"
+   height="21.166666mm"
+   viewBox="0 0 21.166666 21.166666"
+   version="1.1"
+   id="svg7114"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="messenger-rounded.svg">
+  <defs
+     id="defs7108" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="-153.71636"
+     inkscape:cy="34.635589"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7111">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-125.31061,-135.89331)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:4.29468584;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect6340"
+       width="21.166666"
+       height="21.166666"
+       x="125.31061"
+       y="135.89331" />
+    <g
+       id="g6594"
+       transform="matrix(0.02583789,0,0,0.02583789,129.27944,139.86214)">
+      <circle
+         id="circle6530"
+         r="256"
+         cy="256"
+         cx="256"
+         style="fill:#78baeb" />
+      <path
+         id="path6532"
+         d="M 256,0 C 244.683,0 233.539,0.744 222.609,2.167 348.216,18.53 445.217,125.933 445.217,256 c 0,130.067 -97.002,237.47 -222.609,253.833 C 233.539,511.256 244.683,512 256,512 397.385,512 512,397.384 512,256 512,114.616 397.385,0 256,0 Z"
+         style="fill:#59aae7"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6534"
+         d="m 244.431,78.279 c -88.033,5.563 -159.189,75.66 -165.973,163.607 -2.664,34.522 4.542,67.158 19.068,95.413 0.461,0.896 0.516,1.943 0.142,2.878 l -17.843,44.609 c -0.915,2.288 0.77,4.778 3.235,4.778 h 53.866 c 0.836,0 1.641,0.305 2.272,0.855 30.897,26.871 71.14,43.275 115.212,43.66 99.925,0.875 181.577,-81.684 179.643,-181.594 C 432.107,151.942 346.835,71.808 244.431,78.279 Z"
+         style="fill:#fcfcfc"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path6536"
+         d="m 158.491,305.435 30.158,-70.37 c 0.345,-0.805 1.135,-1.326 2.01,-1.326 h 97.965 c 0.496,0 0.978,-0.169 1.367,-0.48 l 47.277,-37.821 c 1.832,-1.465 4.372,0.589 3.324,2.687 l -39.463,78.926 c -0.371,0.741 -1.128,1.209 -1.957,1.209 h -87.086 c -0.396,0 -0.786,0.108 -1.125,0.312 l -49.332,29.599 c -1.822,1.093 -3.974,-0.786 -3.138,-2.736 z"
+         style="fill:#78baeb"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g6538">
+</g>
+      <g
+         id="g6540">
+</g>
+      <g
+         id="g6542">
+</g>
+      <g
+         id="g6544">
+</g>
+      <g
+         id="g6546">
+</g>
+      <g
+         id="g6548">
+</g>
+      <g
+         id="g6550">
+</g>
+      <g
+         id="g6552">
+</g>
+      <g
+         id="g6554">
+</g>
+      <g
+         id="g6556">
+</g>
+      <g
+         id="g6558">
+</g>
+      <g
+         id="g6560">
+</g>
+      <g
+         id="g6562">
+</g>
+      <g
+         id="g6564">
+</g>
+      <g
+         id="g6566">
+</g>
+    </g>
+  </g>
+</svg>
