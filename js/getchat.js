@@ -38,6 +38,7 @@ $(document).ready(function() {
   var buttonSelects = $('.buttonSelects button');
   buttonSelects.click(function(){
       $(this).addClass('active').siblings().removeClass('active');
+      $("#getChatBody").slideDown();
   });
    
   var btWhiteContainer = $('#white-container');
@@ -136,6 +137,7 @@ $(document).ready(function() {
   /* Gerado */
   var $btnChat = $("#btnGetChat");
   var $chatBody = $("#getChatBody");
+
   $("#sandbox").on("click", function(e) {
     $chatBody.slideUp();
     $btnChat.removeClass("closeGetChat");
