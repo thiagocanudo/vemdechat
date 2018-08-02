@@ -34,7 +34,7 @@
 #sandbox #getChatSite .getIcon-fm-dark{background:url(https://res.cloudinary.com/thiagocanudo/image/upload/v1532615103/getchat/icons/messenger-dark.svg) center no-repeat;background-size:130%}
 #sandbox #getChatSite .getIcon-skype-dark{background:url(https://res.cloudinary.com/thiagocanudo/image/upload/v1532615112/getchat/icons/skype-dark.svg) center no-repeat;background-size:130%}
 
-body{font-family: 'Nunito Sans', sans-serif;color: #2c3746;}
+body{font-family: 'Nunito Sans', sans-serif;color: #2c3746;background: #f1f8ff;}
 h1{font-size: 55px;font-weight: 400;letter-spacing: -3px;color: #4e3c88;}
 h5{font-size: 25px;font-weight: 300;letter-spacing: -1px;color: #4e3c88;}
 #sandbox{position: relative;background:url(https://res.cloudinary.com/thiagocanudo/image/upload/v1532703764/getchat/bg-sandbox.svg?v=1) center 25px no-repeat;}
