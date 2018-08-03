@@ -55,6 +55,13 @@ pre i{font-style: normal;}
 .btn-dark:not(:disabled):not(.disabled):active,
 .btn-dark:not(:disabled):not(.disabled).active{border-color: #4e3c88;background-color: #4e3c88;}
 .btn-dark:hover {border-color: #226f94;background-color: #226f94;}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 @media (max-width: 420px) { 
 	.btn{padding: .375rem .55rem;font-size: .9rem;}
 }
