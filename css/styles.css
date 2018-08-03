@@ -1,3 +1,4 @@
+#sandbox{position: relative;}
 #sandbox #getChatSite{position:absolute;bottom:5px;left:calc(50% - 31px);z-index:1000}
 #sandbox #getChatSite #getChatBody{display:none;position:absolute;bottom:65px;left:-5px;border:1px solid #ddd;border-radius:7px;background:#ccc}
 #sandbox #getChatSite #btnGetChat{width:45px;height:45px;border-radius:50%}
@@ -6,7 +7,7 @@
 #sandbox #getChatSite #getIcon-fm{width:52px;height:52px;}
 #sandbox #getChatSite #btnGetChat,
 #sandbox #getChatSite #btnGetChat.closeGetChat{background-image:url(https://res.cloudinary.com/thiagocanudo/image/upload/v1532635864/getchat/icons/getchat-icons.svg);}
-#sandbox #getChatSite #btnGetChat{box-sizing: unset;position:absolute;bottom:0;left:0;border: 4px solid #fff;background-position:center -28px;background-repeat:no-repeat;background-color:#1A97A4;-webkit-box-shadow:3px 3px 10px rgba(82, 82, 82, 0.75);box-shadow:3px 3px 10px rgba(82, 82, 82, 0.75);transition:all .225s ease-in-out;cursor:pointer;}
+#sandbox #getChatSite #btnGetChat{box-sizing: unset;position:absolute;bottom:0;left:0;border: 4px solid #fff;background-position:center -28px;background-repeat:no-repeat;background-color:#2196f3;-webkit-box-shadow:3px 3px 10px rgba(82, 82, 82, 0.75);box-shadow:3px 3px 10px rgba(82, 82, 82, 0.75);transition:all .225s ease-in-out;cursor:pointer;}
 #sandbox #getChatSite #btnGetChat:hover{background-color:#2D7599;}
 #sandbox #getChatSite #btnGetChat.closeGetChat{background-color:#2D7599;background-position:center -80px;background-repeat:no-repeat;}
 #sandbox #getChatSite #getChatBody a{display:block;margin:5px;transition:all .15s ease-in-out}
@@ -34,10 +35,9 @@
 #sandbox #getChatSite .getIcon-fm-dark{background:url(https://res.cloudinary.com/thiagocanudo/image/upload/v1532615103/getchat/icons/messenger-dark.svg) center no-repeat;background-size:130%}
 #sandbox #getChatSite .getIcon-skype-dark{background:url(https://res.cloudinary.com/thiagocanudo/image/upload/v1532615112/getchat/icons/skype-dark.svg) center no-repeat;background-size:130%}
 
-body{font-family: 'Nunito Sans', sans-serif;color: #2c3746;background: #f1f8ff;}
-h1{font-size: 55px;font-weight: 400;letter-spacing: -3px;color: #4e3c88;}
-h5{font-size: 25px;font-weight: 300;letter-spacing: -1px;color: #4e3c88;}
-#sandbox{position: relative;background:url(https://res.cloudinary.com/thiagocanudo/image/upload/v1532703764/getchat/bg-sandbox.svg?v=1) center 25px no-repeat;}
+body{font-family: 'Nunito Sans', sans-serif;color: #2c3746;background: #f1f8ff url(../images/bg-editor.png) center}
+h1{line-height: 55px;font-size: 55px;font-weight: 400;letter-spacing: -3px;color: #4e3c88;}
+h5{font-size: 25px;font-weight: 300;letter-spacing: -1px;color: #7952b3;}
 pre{padding: 15px 0;color: #e6db74;border: 1px solid #999;background: #272822;border-radius: 5px;}
 pre i{font-style: normal;}
 .hide-line{height: 0px;overflow: hidden;display: block;margin: -20px;}
@@ -46,10 +46,15 @@ pre i{font-style: normal;}
 .pink {color: deeppink;}
 .green {color: greenyellow;}
 .yellow {color: yellow;}
-.editor{color: #FFF;background-image: linear-gradient(to bottom, #00c8b3, #4e3c88);}
+.editor{position:relative;color: #FFF;background-image: linear-gradient(to bottom, #00c8b3, #4e3c88);}
+.editor:before{content:"";display:block;width:100%;height:100%;position:absolute;top:0;left:0;background:url(../images/bg-editor.png) center}
 .copy{font-size: 16px;letter-spacing: -0.5px;}
 .copy a{color:#2D7699;}
+.copy a:hover{color:#4e3c88;}
 .btn-dark{border-color: #2D7699;background-color: #2D7699;}
 .btn-dark:not(:disabled):not(.disabled):active,
 .btn-dark:not(:disabled):not(.disabled).active{border-color: #4e3c88;background-color: #4e3c88;}
 .btn-dark:hover {border-color: #226f94;background-color: #226f94;}
+@media (max-width: 420px) { 
+	.btn{padding: .375rem .55rem;font-size: .9rem;}
+}
