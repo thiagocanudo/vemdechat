@@ -1,3 +1,4 @@
+![Vem de Chat!](https://thiagocanudo.github.io/vemdechat/images/logo-getchat.svg)
 # Vem de Chat
 An elegant form of customer interaction via WhatsApp, Facebook Messenger and Skype.
 

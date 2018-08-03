@@ -47,7 +47,7 @@ pre i{font-style: normal;}
 .green {color: greenyellow;}
 .yellow {color: yellow;}
 .editor{position:relative;color: #FFF;background-image: linear-gradient(to bottom, #00c8b3, #4e3c88);}
-.editor:before{content:"";display:block;width:100%;height:100%;position:absolute;top:0;left:0;background:url(../images/bg-editor.png) center}
+.editor:before{content:"";display:block;width:100%;height:100%;position:absolute;top:0;left:0;background:url(../images/bg-editor.png) center fixed}
 .copy{font-size: 16px;letter-spacing: -0.5px;}
 .copy a{color:#2D7699;}
 .copy a:hover{color:#4e3c88;}
