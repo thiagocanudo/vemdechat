@@ -1,4 +1,70 @@
 User-Agent: *
 Disallow: 
 
+User-agent: DirBuster-0.12
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Baiduspider-video
+Disallow: /
+
+User-agent: Baiduspider-image
+Disallow: /
+
+User-agent: Baiduspider+
+Disallow: /
+
+User-agent: TwengaBot-Discover
+Disallow: /
+
+User-agent: TwengaBot
+Disallow: /
+
+User-agent: TwengaBot-2.0
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: BDCbot
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+User-agent: LinkpadBot
+Disallow: /
+
+User-agent: WBSearchBot
+Disallow: /
+
+User-agent: AddThis.com robot tech.support@clearspring.com
+Disallow: /
+
+User-agent: AddThis.com
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: YandexImages
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: EveryoneSocialBot
+Disallow: /
+
 Sitemap: https://thiagocanudo.github.io/vemdechat/sitemap.xml
