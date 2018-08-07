@@ -1,4 +1,4 @@
-#sandbox{position: relative;}
+#sandbox{position: relative;color: rgba(220, 227, 236, 0.9);}
 #sandbox #getChatSite{position:absolute;bottom:5px;left:calc(50% - 31px);z-index:1000}
 #sandbox #getChatSite #getChatBody{display:none;position:absolute;bottom:65px;left:-5px;border:1px solid #ddd;border-radius:7px;background:#ccc}
 #sandbox #getChatSite #btnGetChat{width:45px;height:45px;border-radius:50%}
@@ -35,22 +35,23 @@
 #sandbox #getChatSite .getIcon-fm-dark{background:url(https://res.cloudinary.com/thiagocanudo/image/upload/v1532615103/getchat/icons/messenger-dark.svg) center no-repeat;background-size:130%}
 #sandbox #getChatSite .getIcon-skype-dark{background:url(https://res.cloudinary.com/thiagocanudo/image/upload/v1532615112/getchat/icons/skype-dark.svg) center no-repeat;background-size:130%}
 
-body{font-family: 'Nunito Sans', sans-serif;color: #2c3746;background: #f1f8ff url(../images/bg-editor.png) center}
+body{font-family: 'Nunito Sans', sans-serif;color: #2c3746;background-image: linear-gradient(to bottom, #00c8b3, #4e3c88);}
+body:before{content:"";display:block;width:100%;height:100%;position:absolute;top:0;left:0;background: url(../images/bg-editor.png) center fixed;}
 h1{line-height: 55px;font-size: 55px;font-weight: 400;letter-spacing: -3px;color: #4e3c88;}
-h5{font-size: 25px;font-weight: 300;letter-spacing: -1px;color: #7952b3;}
+h5{font-size: 25px;font-weight: 300;letter-spacing: -1px;color: #f5f5f5;}
 pre{padding: 15px 0;color: #e6db74;border: 1px solid #999;background: #272822;border-radius: 5px;}
-pre i{font-style: normal;}
+pre i{font-size: 85.5%;font-style: normal;}
 .hide-line{height: 0px;overflow: hidden;display: block;margin: -20px;}
 #i {color: yellow;}
 .white {color: white;}
 .pink {color: deeppink;}
 .green {color: greenyellow;}
 .yellow {color: yellow;}
-.editor{position:relative;color: #FFF;background-image: linear-gradient(to bottom, #00c8b3, #4e3c88);}
-.editor:before{content:"";display:block;width:100%;height:100%;position:absolute;top:0;left:0;background:url(../images/bg-editor.png) center fixed}
-.copy{font-size: 16px;letter-spacing: -0.5px;}
-.copy a{color:#2D7699;}
-.copy a:hover{color:#4e3c88;}
+.editor{position:relative;color: #FFF;background: #f1f8ff url(../images/bg-editor.png) center;}
+.editor p{color:#4e3c88;}
+.copy{font-size: 16px;color:#fff;letter-spacing: -0.5px;}
+.copy a{color:#1C94A3;}
+.copy a:hover{text-decoration:underline;}
 .btn-dark{border-color: #2D7699;background-color: #2D7699;}
 .btn-dark:not(:disabled):not(.disabled):active,
 .btn-dark:not(:disabled):not(.disabled).active{border-color: #4e3c88;background-color: #4e3c88;}
